@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
 }
 
+h2 {
+    font-size: 50px;
+}
+
 p {
     margin: 0;
 }
@@ -53,12 +57,13 @@ a:active {
     padding: 0 15px;    
 }
 
+.container--small {
+    max-width: 1000px;
+}
+
 /*  HEADER  */
 
-.header {
-    position: relative;
-    z-index: 1;
-}
+
 
 .header__container {
     display: flex;
@@ -112,7 +117,7 @@ a:active {
 .welcome__row {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
     margin-bottom: 30px;
     min-height: 700px;
 }
@@ -190,5 +195,88 @@ a:active {
     display: flex;
     gap: 30px;
 }
-.cta__link {}
-.cta__img {}
+
+/* MISSION  */
+
+.mission {
+    padding: 150px 85px;
+    position: relative;
+}
+
+
+.mission__img { 
+    position: absolute;
+    top: 0;
+    right: 50%;
+    z-index: -1;
+    transform: rotate(90deg) translate(-43%);
+}
+
+.mission__desc {
+    width: 320px;
+    margin-left: auto;
+}
+
+.mission__title {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.mission__title::after {
+    content: '';
+    position: absolute;
+    right: 55px;
+    top: 7px;
+
+    z-index: -1;
+
+    width: 85px;
+    height: 85px;
+
+    background-color: #F101BF;
+    opacity: 0.7;
+    filter: blur(50px);
+}
+
+/*  COMMON  */
+
+.common {
+    margin-top: 100px;
+    padding: 50px 0;    
+}
+
+/*.common--reverse .container {
+    flex-direction: row-reverse;
+}
+*/
+.common:nth-child(even) .container {
+    flex-direction: row-reverse;
+}
+
+.common__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.common__col {
+    max-width: 410px;
+}
+
+.common__title {
+    margin-bottom: 20px;
+}
+
+.scanner {
+    background: linear-gradient(180deg, #000 -3%, rgba(0, 0, 0, 0) 56%, #000 84%),
+    url(../img/bg-scanner.jpg);
+    background-size: cover;
+}
+
+.code {
+    background: linear-gradient(180deg, #000 -3%, rgba(0, 0, 0, 0) 56%, #000 84%),
+    url(../img/bg-code.jpg);
+    background-size: cover;
+    background-position: center;
+}
