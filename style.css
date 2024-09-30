@@ -62,9 +62,7 @@ a:active {
 /********************
       HEADER
 ********************/
-.header {
 
-}
 
 .header__container {
   display: flex;
@@ -78,17 +76,6 @@ a:active {
   gap: 8px;
 }
 
-.header__logo {
-
-}
-
-.logo__img {
-
-}
-
-.logo__text {
-
-}
 
 .header__login {
   display: flex;
@@ -97,9 +84,6 @@ a:active {
   text-decoration: underline;
 }
 
-
-main {
-}
 
 /********************
       WELCOME
@@ -137,9 +121,6 @@ main {
   min-height: 700px;
 }
 
-.welcome__desc {
-
-}
 
 .welcome__title {
   margin-bottom: 130px;
@@ -223,13 +204,6 @@ main {
   gap: 30px;
 }
 
-.cta__link {
-
-}
-
-.cta__img {
-
-}
 
 
 
@@ -241,10 +215,10 @@ main {
   position: relative;
 }
 
-.mission__container {
-  /* padding: 150px 85px; */
+/*.mission__container {
+   padding: 150px 85px; 
 }
-
+*/
 .mission__img {
   position: absolute;
   top: 0;
@@ -279,9 +253,6 @@ main {
   filter: blur(50px);
 }
 
-.mission__text {
-
-}
 
 /********************
       COMMON
@@ -305,9 +276,6 @@ main {
   align-items: flex-end;
 }
 
-.common__img {
-
-}
 
 .common__col {
   max-width: 410px;
@@ -317,9 +285,7 @@ main {
   margin-bottom: 20px;
 }
 
-.common__text {
 
-}
 
 
 
@@ -388,26 +354,20 @@ main {
   align-items: center;
 }
 
-.footer__content {
 
-}
 
 .footer__logo-link {
   display: inline-block;
   margin-bottom: 15px;
 }
 
-.footer__logo {
 
-}
 
 .footer__contact {
   margin-bottom: 15px;
 }
 
-.footer__copy {
 
-}
 
 .footer__links {
   display: flex;
@@ -415,9 +375,7 @@ main {
   gap: 15px;
 }
 
-.footer__link {
 
-}
 
 
 
